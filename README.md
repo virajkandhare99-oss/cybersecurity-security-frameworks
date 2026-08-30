@@ -114,3 +114,44 @@ A basic audit process can include:
 
 Cybersecurity Learner cybersecurity-security-frameworks
 Cybersecurity fundamentals covering security frameworks, security controls, the CIA Triad, OWASP principles, and security audits.
+
+# Sample Security Audit
+
+## System
+
+Example Web Application
+
+## Scope
+
+Authentication and access control.
+
+## Findings
+
+### Finding 1 — Weak Password Policy
+
+Risk: Medium
+
+Description:
+The application allows users to create weak passwords.
+
+Potential Impact:
+Attackers may perform password-guessing attacks.
+
+Recommendation:
+Implement a strong password policy and MFA.
+
+---
+
+### Finding 2 — Missing Account Lockout
+
+Risk: High
+
+Description:
+The application does not adequately restrict repeated failed
+authentication attempts.
+
+Potential Impact:
+Increased risk of brute-force attacks.
+
+Recommendation:
+Implement rate limiting and account protection mechanisms.
